@@ -1,7 +1,4 @@
-// This component do the fetch request to get 
+// This component do the fetch request to get the API info
 export const getCharacteres = async()=>{
-  const url = `https://rickandmortyapi.com/api/character`;
-  const response = await fetch(url);
-  const {results} =  await response.json();
-  return results;
+  // Write code here to do the request
 }
