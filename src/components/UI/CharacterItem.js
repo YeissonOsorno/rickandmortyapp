@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CharacterItem = ({name,image,status,species,gender,origin:{name:nameEarth}}) => {
+const CharacterItem = () => {
   
   return ( 
     <div className="col mb-5">
@@ -22,5 +22,5 @@ const CharacterItem = ({name,image,status,species,gender,origin:{name:nameEarth}
     </div>
   );
 }
- 
+
 export default CharacterItem;
